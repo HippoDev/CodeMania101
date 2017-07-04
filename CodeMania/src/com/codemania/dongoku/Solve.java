@@ -23,7 +23,7 @@ public class Solve {
 		long result;
 		
 		
-		// Test by change solve 1 2 3 
+		// Test by change solve 1 2 3
 		long startTime = System.currentTimeMillis();
 		result = solve1(input, target, output);
 		long stopTime = System.currentTimeMillis();
@@ -35,7 +35,7 @@ public class Solve {
 		System.out.println("  output1:"+input[output[0]]);
 		System.out.println("  output2:"+input[output[1]]);
 		System.out.println("  output3:"+input[output[2]]);
-		System.out.println("usageTime:"+(stopTime-startTime)/1000.0);
+		System.out.println("usageTime:"+(stopTime-startTime)/1000.0+"s");
 	}
 	
 	public static long solve1(int[] input, long target, int[] output){
